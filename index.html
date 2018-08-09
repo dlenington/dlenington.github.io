@@ -23,19 +23,27 @@ background-image: url("images/carmel-beach-at-california-top.jpg");
  background-size: cover;
 
 }
-ul {
+ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
-li {
+ul.topnav li {
   float: left;
+  border-right:1px solid #bbb;
 }
 
-li a {
+ul.topnav li:last-child {
+  border-right: none;
+}
+
+ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -43,22 +51,31 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+ul.topnav li a:hover:not(.active) {
   background-color: #111;
 }
 
-.active {
+ul.topnav li a.active {
   background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+  float:right
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
 }
 </style>
 </head>
 <body>
 
-  <ul>
+  <ul class ="topnav">
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
-  <li style="float:right"><a href="#about">About</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
   <div class="bg"></div>
 
