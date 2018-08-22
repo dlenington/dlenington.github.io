@@ -3,12 +3,10 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/font-
-awesome/4.7.0/css/font-awesome.min.css"> 
-<meta name="viewport" 
-content="width=device-width
-, initial-scale=1">
+<link rel="stylesheet" href="https://w3schools.com/w3css/3/w3.css"> 
 <title> Dan's Personal Website </title>
 
 </head>
@@ -23,11 +21,47 @@ content="width=device-width
     <input type="text" placeholder="Search..">
   </div>
 
-  <div class="container">
+  <section>
+    <img class="mySlides" src="images/carmel-beach-at-california-top.jpg" style="width:100%;">
+    <img class="mySlides" src="images/images.jpg" style="width:100%">
+    <img class="mySlides" src="images/sunset.jpg" style="width:100%">
+  </section>
+
+  <script>
+  // Slideshow change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x =
+    document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if(myIndex > x.length) {myIndex = 1
+}
+x[myIndex-1].style.display =
+"block";
+  setTimeout(carousel, 3000);
+  }
+  </script>
+
+<section class="w3-container w3-center 
+w3-content" style="max-width:600px">
+  <h2 class="w3-wide">Dan Lenington</h2>
+  <p class="w3-opacity"><i>Creative Web Developer</i></p>
+</section>
+<!--
+<div class="container">
       <div class="center myFont x-large">Dan Lenington
         </div>
         <img src="images/sunset.jpg" class="responsive">
   </div>
+
+-->
+  
  
 <!--
 div class="container">
