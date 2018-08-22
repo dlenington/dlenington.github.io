@@ -7,7 +7,7 @@ body, html {
   font-family: Verdana, Geneva, sans-serif;  
   height: 100%;
     margin: 0;
-    
+    background-color: coral;
     background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -20,7 +20,7 @@ body, html {
     }
     .navbar {
       width: 100%;
-      background-color: #555;
+      background-color: orange;
       overflow: auto;
     }
 
@@ -33,7 +33,7 @@ body, html {
     }
 
     .navbar a:hover {
-      background-color: #000;
+      background-color: GoldenRod;
     }
 
     navbar input[type=text] {
@@ -61,7 +61,7 @@ body, html {
     }
 
     .active {
-      background-color: #4CAF50;
+      background-color: lightblue;
     }
 
     @media screen and (max-width: 500px) {
@@ -130,7 +130,7 @@ body, html {
       left: 50%;
       transform: translate(-50%, -50%);
 
-    }
+    } 
 
     .myFont {
       font-family: Verdana, geneva, sans-serif;
