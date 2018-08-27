@@ -160,7 +160,11 @@ body, html {
 
     .header {
     text-align: center;
-    padding: 32px;
+    padding: 40px;
+    background: coral;
+    color: white;
+    font-size: 30px;
+    
     }
 
     .row {
