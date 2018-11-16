@@ -166,6 +166,14 @@ body, html {
     font-size: 30px;
     
     }
+    .headerAbout {
+      text-align: center;
+      padding: 40px;
+      background: orange;
+      color: white;
+      font-size: 30px;
+      
+      }
 
     .row {
       display: -ms-flexbox;
@@ -208,5 +216,9 @@ body, html {
     .block2 {
 height: 200px;
 width: 100%;
+    }
 
+    .about {
+      background: orange;
+      
     }
