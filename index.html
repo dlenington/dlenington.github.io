@@ -6,32 +6,18 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134610816-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
     gtag('config', 'GA_TRACKING_ID');
   </script>
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
   <link rel="stylesheet" href="carousel.css">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
   <meta charset="UTF-8">
   <meta name="description" content="An open-source personal website to show personal projects">
@@ -40,57 +26,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Jekyll v3.8.5">
   <title>Dan Lenington's Digital Portfolio</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color: rgb(223, 218, 203);">
 
 
+  <div>
+    <h1 class="text-center" style=font-size:3.5rem>
+      Dan Lenington
+    </h1>
+    <h2 class="text-center">
+      Web Developer
+      <br> UW-Madison
+      <br> Artist
 
-  
-    <div class="row">
-      <div class="col"></div>
-      <div class="col display-2 align-self-center vh-75 d-flex mx-auto " align="center">
-    
-        <div class="text-left mx-auto" style="width: 200px;">Dan
-          <br>Lenington
-          <div class="mt-5">
-            <h2 class="text-left">
-              Web Developer
-              <br> Creator
-              <br> Artist
-            </h2>
-          </div>
-        </div>
-
-      </div>
-      <div class="col"></div>
-    </div>
-    
-
-
- 
-  <div class="row">
-    <div class="col-12 align-self-center text-left mx-2 mt-5">
-      <div class="h-50" style="height:100px;">
-      </div>
-      <h3 class="mx-2"> My name is Dan and I am a creative web developer finishing college at the University of Wisconsin Madison.</h3>
-      <p class="mx-2">I have always enjoyed creating art and writing music on the guitar, piano, and drums. After gaining an introduction
-        to Java in a Computer Science class in college, I found an interest in creating computer programs. I quickly gained
-        more technical skills and worked to create and iOS app with Objective C before becoming interested in web development.
-        I have created many websites and continue to develop in my free-time. I want to contribute my creative thoughts and
-        coding ability to create stunning and useful websites. On this page you can find links to my work.</p>
-    </div>
-  </div>
+      <br>
+      </p>
+    </h2>
   </div>
 
-  <footer class="container justify-content-center">
+  <section class="container justify-content-center"></section>
+  <p class="text-center">
+    <br>
+    <br>
+    <a class="resume-button" href="https://danlenington.com/Resume/docs/Dan%20Lenington%20Resume.pdf"> View Resume</a>
+  </p>
+  </section>
 
+  <section class="container justify-content-center">
+    <br>
     <p class="text-center">
-      <a href="https://danlenington.com/Resume/docs/Dan%20Lenington%20Resume.pdf">
-        Resume
-      </a> &middot;
       <a href="mailto:danlening02@gmail.com">
         <i class="fas fa-envelope fa-3x" style="color:black;"></i>
       </a> &middot;
@@ -105,173 +72,228 @@
       </a>
     </p>
 
-  </footer>
+  </section>
 
-  <main role="main">
+  <section class="carousel-style">
+    <main role="main">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan.JPG" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan2.JPG" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan3.png" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan4.jpeg" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan5.jpeg" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Art.jpg" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan6.jpeg" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a href="">
-            <img class="img-fluid mx-auto" src="images/Dan7.jpeg" alt="Dan Lenington" width="100%" height="auto">
-          </a>
-        </div>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+          <li data-target="#myCarousel" data-slide-to="8"></li>
+          <li data-target="#myCarousel" data-slide-to="9"></li>
+          <li data-target="#myCarousel" data-slide-to="10"></li>
+          <li data-target="#myCarousel" data-slide-to="11"></li>
+          <li data-target="#myCarousel" data-slide-to="12"></li>
+          <li data-target="#myCarousel" data-slide-to="13"></li>
+          <li data-target="#myCarousel" data-slide-to="14"></li>
+          <li data-target="#myCarousel" data-slide-to="15"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-1.JPG" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-2.JPG" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-3.png" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-4.jpeg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-5.jpeg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Art-Website.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-6.jpeg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-7.jpeg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-8.PNG" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-9.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-10.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-11.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-12.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-13.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-14.png" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="">
+              <img class="img-fluid mx-auto" src="images/Daniel-Lenington-15.jpg" alt="Dan Lenington" width="100%"
+                height="auto">
+            </a>
+          </div>
 
-      </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+          </class>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">WUD Music Newsletter
-          <span>Weekly</span>
-        </h2>
-        <p class="lead">An email newsletter created using Bootstrap.</p>
-      </div>
-      <div class="col-md-5">
-        <a href="Newsletters/newsletter_index_copy.html">
-          <img class="featurette-image img-fluid mx-auto" src="images/Newsletter.svg" alt="Generic placeholder image">
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">UniCade Website
-        </h2>
-        <p class="lead">A product website to market the UniCade game system</p>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading">WUD Music Newsletter
+            <span>Weekly</span>
+          </h2>
+          <p class="lead">An email newsletter created using Bootstrap</p>
+        </div>
+        <div class="col-md-5 ">
+          <a href="Newsletters/newsletter_index_copy.html">
+            <img class="featurette-image img-fluid mx-auto" src="images/link-banners/Newsletter.jpg"
+              alt="Generic placeholder image">
+          </a>
+        </div>
       </div>
-      <div class="col-md-5">
-        <a href="">
-          <img class="featurette-image img-fluid mx-auto" src="" alt="Generic placeholder image">
-        </a>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">UniCade Website</h2>
+          <p class="lead">A product website to publicize the UniCade project</p>
+        </div>
+        <div class="col-md-5">
+          <a href="">
+            <img class="featurette-image img-fluid mx-auto" src="images/link-banners/UniCade-Website.jpg"
+              alt="Generic placeholder image">
+          </a>
+        </div>
       </div>
-    </div>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Dan Lenington Art Gallery
-        </h2>
-
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Dan Lenington Art Gallery</h2>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <a href="Websites/Dan-Art-Website/index.html">
+            <img class="featurette-image img-fluid mx-auto" src="images/link-banners/LeningtonArt.jpg"
+              alt="Generic placeholder image">
+          </a>
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <a href="Websites/Dan-Art-Website/index.html">
-          <img class="featurette-image img-fluid mx-auto" src="images/LeningtonArt.svg" alt="Generic placeholder image">
-        </a>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Gold Leaf<span>Designs</span></h2>
+</div>
+        <div class="col-md-5">
+          <a href="Websites/Gold-Leaf-Designs/index.html">
+            <img class="featurette-image img-fluid mx-auto" src="images/link-banners/GoldLeaf.jpg"
+              alt="Generic placeholder image">
+          </a>
+        </div>
       </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
+      <footer class="container justify-content-center">
+        <p class="text-center">
+          <a href="mailto:danlening02@gmail.com">
+            <i class="fas fa-envelope fa-2x" style="color:black;"></i>
+          </a> &middot;
+          <a href="https://github.com/dlenington">
+            <i class="fab fa-github fa-2x" style=" color:black;"></i>
+          </a> &middot;
+          <a href="http://www.linkedin.com/in/dan-lenington">
+            <i class="fab fa-linkedin fa-2x" style=" color:black;"></i>
+          </a> &middot;
+          <a href="https://drive.google.com/drive/folders/0BzgsTvyk30o3N1hBNThob2lEak0?usp=sharing">
+            <i class="fab fa-google-drive fa-2x" style=" color:black;"></i>
+          </a>
+          <p>Dan Lenington 2019</p>
+        </p>
+      </footer>
+    </main>
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Gold Leaf
-          <span>Designs</span>
-        </h2>
-
-      </div>
-      <div class="col-md-5">
-        <a href="Websites/Gold-Leaf-Designs/index.html">
-          <img class="featurette-image img-fluid mx-auto" src="images/GoldLeaf.svg" alt="Generic placeholder image">
-        </a>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <footer class="container justify-content-center">
-
-      <p class="text-center"> 2019 Dan Lenington &middot;
-        <a href="https://danlenington.com/Resume/docs/Dan%20Lenington%20Resume.pdf">
-          Resume
-        </a> &middot;
-        <a href="mailto:danlening02@gmail.com">
-          <i class="fas fa-envelope fa-2x" style="color:black;"></i>
-        </a> &middot;
-        <a href="https://github.com/dlenington">
-          <i class="fab fa-github fa-2x" style=" color:black;"></i>
-        </a> &middot;
-        <a href="http://www.linkedin.com/in/dan-lenington">
-          <i class="fab fa-linkedin fa-2x" style=" color:black;"></i>
-        </a> &middot;
-        <a href="https://drive.google.com/drive/folders/0BzgsTvyk30o3N1hBNThob2lEak0?usp=sharing">
-          <i class="fab fa-google-drive fa-2x" style=" color:black;"></i>
-        </a>
-      </p>
-
-    </footer>
-
-
-  </main>
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    
 </body>
-
 </html>
