@@ -33,3 +33,12 @@
       max-width: 100%;
     }
   }
+
+  .carousel-style {
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
