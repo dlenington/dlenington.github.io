@@ -1,40 +1,44 @@
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+}
 
-  .resume-section {
-    padding-top: 1%;
-    text-align: center;
-  }
+.resume-section {
+  padding-top: 1%;
+  text-align: center;
+}
 
-  .resume-button {
-    color: black;
-    padding: 15px 30px;
-    border: 3px solid black;
-    border-radius: 10px;
-    transition: .5s ease all;
-    font-size: 1.0rem;
-    text-align: center;
-    width: 80px;
-    height: 80px;
-  }
+.resume-button {
+  color: black;
+  padding: 15px 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+  transition: 0.5s ease all;
+  font-size: 1rem;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
 
-  .carousel-style {
-    padding-top: 20px;
-    text-align: center;
-    margin: auto;
-    position: relative;
-    width: 600px;
-    height: 600px;
-  }
+.carousel-style {
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+a {
+  text-decoration: none;
+}
