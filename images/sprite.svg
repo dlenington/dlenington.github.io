@@ -1,0 +1,64 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" id="Contact">
+    <path fill="none" d="M0 0h18v18H0z"></path>
+    <path d="M10.5 1.5h-6C3.7 1.5 3 2.2 3 3v12c0 .8.7 1.5 1.5 1.5h9c.8 0 1.5-.7 1.5-1.5V6l-4.5-4.5zM9 7.5c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5S7.5 9.8 7.5 9 8.2 7.5 9 7.5zm3 6H6v-.4c0-.6.4-1.1.9-1.4.6-.3 1.3-.4 2.1-.4s1.4.2 2.1.4c.6.2.9.8.9 1.4v.4z" fill="#fff"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.96 156.99" id="CSS">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 01-1-116V0a78.5 78.5 0 1079 80h-20a58 58 0 01-58 57z"></path><text transform="translate(61 79.99)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">CSS</text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.78 117.79" id="GitHub">
+    <path d="M60.39 0A60.39 60.39 0 0041.3 117.69c3 .56 4.12-1.31 4.12-2.91 0-1.44-.05-6.19-.08-11.24C28.54 107.19 25 96.42 25 96.42c-2.75-7-6.71-8.84-6.71-8.84-5.48-3.75.41-3.67.41-3.67 6.07.43 9.26 6.22 9.26 6.22 5.39 9.23 14.13 6.57 17.57 5 .55-3.9 2.11-6.56 3.84-8.07C36 85.55 21.85 80.37 21.85 57.23A23.35 23.35 0 0128.08 41c-.63-1.52-2.7-7.66.58-16 0 0 5.07-1.62 16.61 6.19a57.36 57.36 0 0130.25 0C87 23.42 92.11 25 92.11 25c3.28 8.32 1.22 14.46.59 16a23.34 23.34 0 016.21 16.21c0 23.2-14.12 28.3-27.57 29.8 2.16 1.87 4.09 5.55 4.09 11.18 0 8.08-.06 14.59-.06 16.57 0 1.61 1.08 3.49 4.14 2.9A60.39 60.39 0 0060.39 0z" fill-rule="evenodd" fill="#fff"></path>
+    <path d="M22.87 86.7c-.13.3-.6.39-1 .19s-.69-.61-.55-.91.61-.39 1-.19.69.61.54.91zm2.45 2.73c-.29.27-.85.14-1.24-.28a.92.92 0 01-.17-1.25c.3-.27.84-.14 1.24.28s.47 1 .17 1.25zm2.38 3.48c-.37.26-1 0-1.35-.52s-.37-1.18 0-1.44 1 0 1.35.51.37 1.19 0 1.45zm3.3 3.36a1.13 1.13 0 01-1.59-.27c-.53-.49-.68-1.18-.34-1.54s1-.27 1.56.23.68 1.18.33 1.54zm4.46 1.95c-.15.47-.82.69-1.51.49s-1.13-.76-1-1.24.82-.7 1.51-.49 1.13.76 1 1.24zm4.94.36c0 .5-.56.91-1.28.92s-1.3-.38-1.31-.88.56-.91 1.29-.92 1.3.39 1.3.88zm4.6-.78c.09.49-.41 1-1.12 1.12s-1.35-.17-1.44-.66.42-1 1.12-1.12 1.35.17 1.44.66z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.96 156.99" id="GraphQL">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 01-1-116V0a78.5 78.5 0 1079 80h-20a58 58 0 01-58 57z"></path><text transform="translate(53 81.99)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">G<tspan x="10.89" y="0" letter-spacing="-.01em">r</tspan>
+        <tspan x="16.28" y="0">aphQL</tspan>
+      </text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 619 453.31" id="HeroImage">
+    <circle cx="202.58" cy="328.31" r="36" fill="#f9f9f9"></circle>
+    <circle cx="23" cy="430.31" r="23" fill="#f9f9f9"></circle>
+    <circle cx="108" cy="388.31" r="27" fill="#f9f9f9"></circle>
+    <path d="M607.06 136.81c5.72-27.57-4.84-57.89-29.55-76.9-25.67-19.76-59.22-21.62-84.81-7.33-12.48-31.1-42.76-52.92-78-52.58a82.75 82.75 0 00-64.88 32.49c-24.94-30.09-70-37.23-105.31-15.12a83.12 83.12 0 00-38.3 57.26C177.31 86.5 157 114.31 157 146.75c0 34 22.34 62.93 53.54 73.73 12.72 29.78 47 51.12 87.34 51.12 23.25 0 44.5-7.09 60.76-18.81 14.54 23.52 42.46 39.52 74.53 39.52 33 0 61.64-16.93 75.79-41.66a82.09 82.09 0 0029.45 5.42c44.51 0 80.59-35 80.59-78.26a76.26 76.26 0 00-11.94-41zm-308.26 30.5L271.5 140l27.3-27.3 6.37 6.37L284.24 140l20.93 20.93zm36.4 0l-6.37-6.37L349.76 140l-20.93-20.93 6.37-6.37 27.3 27.3zm110.51 12.36a19.24 19.24 0 01-14.89-7.39 7.56 7.56 0 007.45-7.45 11.17 11.17 0 0122.33 0 14.89 14.89 0 01-14.89 14.8zM500.46 124l-33.35 33.32-10.24-10.23 33.31-33.31a3.71 3.71 0 015.25 0l5 5a3.7 3.7 0 010 5.18z" fill="#f9f9f9"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.96 156.99" id="HTML">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 01-1-116V0a78.5 78.5 0 1079 80h-20a58 58 0 01-58 57z"></path><text transform="translate(57 83.99)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">
+        <tspan letter-spacing="-.01em">H</tspan>
+        <tspan x="11.14" y="0">TML</tspan>
+      </text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.96 156.99" id="JavaScript">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 01-1-116V0a78.5 78.5 0 1079 80h-20a58 58 0 01-58 57z"></path><text transform="translate(42 83.99)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">J<tspan x="8.88" y="0" letter-spacing="-.01em">av</tspan>
+        <tspan x="25.22" y="0">aScript</tspan>
+      </text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.09 157" id="Node">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 010-116V0h-.5a78.5 78.5 0 000 157h.5z"></path><text transform="translate(56 85)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">Node</text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.96 156.99" id="React">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 01-1-116V0a78.5 78.5 0 1079 80h-20a58 58 0 01-58 57z"></path><text transform="translate(62 78.99)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">React</text>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 15" id="Resume">
+    <path d="M7.5 0h-6A1.51 1.51 0 000 1.5v12A1.5 1.5 0 001.5 15h9a1.5 1.5 0 001.5-1.5v-9zM6 6a1.5 1.5 0 11-1.5 1.5A1.5 1.5 0 016 6zm3 6H3v-.43a1.53 1.53 0 01.92-1.39 5.25 5.25 0 014.16 0A1.52 1.52 0 019 11.57z" fill="#fff"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.52 157" id="TypeScript">
+    <g fill="#fff">
+      <path d="M79 137a58 58 0 010-116V0h-.5a78.5 78.5 0 000 157h.5z"></path><text transform="translate(45 82)" font-size="16" font-family="Roboto-Medium,Roboto" font-weight="500">
+        <tspan letter-spacing="-.04em">T</tspan>
+        <tspan x="9.07" y="0">ypeScript</tspan>
+      </text>
+    </g>
+  </symbol>
+</svg>
