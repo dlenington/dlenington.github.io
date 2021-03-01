@@ -183,3 +183,17 @@ h3 {
 .icon--white {
   fill: #fff;
 }
+.icon--dark {
+  fill: #000;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+}
+
+.footer .icon {
+  text-decoration: none;
+  margin-right: 10px;
+}
